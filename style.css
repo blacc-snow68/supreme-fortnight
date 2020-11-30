@@ -1,0 +1,177 @@
+*{ 
+ margin:0;
+ padding:0;
+}
+
+html, body{
+ margin:0;
+ padding:0;
+}
+
+body{
+ background-color:#000;
+ color:#fff;
+}
+
+h2{
+ background-color:black;
+ color:#fff;
+ text-align:center;
+ height:40px;
+ line-height:55px;
+ font-family:cursive;
+ font-weight:bold;
+ font-size:25px;
+ padding-bottom:10px;
+}
+
+nav{
+ height:60px;
+ width:100%;
+ display:flex;
+ background-color:black;
+}
+
+nav ul{
+ display:flex;
+ border:1px solid #fff;
+}
+
+nav ul li{ 
+ display:flex;
+ line-height:60px;
+ width:100%;
+ padding-left:28px;
+}
+
+nav ul li a{
+ text-decoration:none;
+ color:#fff;
+}
+
+nav ul li a:hover {
+ opacity:0.5;
+}
+
+nav ul li #img{
+ width:50px;
+ height:50px;
+ line-height:60px;
+ background-color:black;
+}
+
+nav ul li img:hover {
+opacity:0.5;
+}
+
+.aside{
+ height:0;
+ background-color:black;
+}
+
+.aside #closebtn{
+ float:right;
+ padding-top:5px;
+ font-size:40px;
+ text-decoration:none;
+ color:#fff;
+}
+
+.aside .list{
+ display:none;
+}
+
+.aside .list li{
+list-style-type:none;
+padding-top:22px;
+}
+
+.aside .list li a{
+text-decoration:none;
+color:#fff;
+font-size:1em;
+font-family:fantasy;
+}
+
+.aside .list li a:hover{
+ opacity:0.5;
+}
+
+#league #closebut{
+ float:right;
+ padding-top:5px;
+ font-size:40px;
+ text-decoration:none;
+ color:#fff;
+}
+
+#league{
+ background-color:black;
+ height:0;
+}
+
+#league #list2{
+ display:none;
+}
+
+#league #list2 li{
+list-style-type:none;
+padding-top:35px;
+padding-left:5px;
+}
+
+#league #list2 li a{
+text-decoration:none;
+color:#fff;
+font-size:1em;
+font-family:fantasy;
+}
+
+#league #list2 li a:hover{
+ opacity:0.5;
+}
+
+
+#rimage{
+ width:100%;
+ height:250px;
+}
+
+#news {
+ font-size:25px;
+ font-family:fantasy;
+ background-color:#030674;
+ border:1px solid black;
+ width:100%;
+ margin-top:15px;
+ padding-top:5px;
+ margin-bottom:15px;
+ padding-bottom:5px;
+}
+
+#cap1{
+ font-size:23px;
+ font-family:fantasy;
+ text-align:center;
+}
+
+#cap1 a{
+ text-decoration:none;
+ color:#fff;
+}
+
+#cap1 a:hover {
+ opacity:0.5;
+}
+
+#transfers {
+ font-size:1em;
+ font-family:fantasy;
+ background-color:#030674;
+ border:1px solid black;
+ width:100%;
+ margin-top:15px;
+ padding-top:5px;
+ margin-bottom:15px;
+ padding-bottom:5px;
+}
